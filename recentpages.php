@@ -2,7 +2,7 @@
 /**
  * Module Name: Recent Pages
  * Module ID: recentpages
- * Description: Lists the 10 most recently edited pages
+ * Description: Lists the 10 most recently edited pages.
  * Version: 1.0
  * Default W: 8
  * Default H: 4
@@ -120,3 +120,4 @@ $recent = array_slice($pages, 0, 10);
     <?php endforeach; ?>
 </table>
 <?php endif; ?>
+
